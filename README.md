@@ -56,7 +56,7 @@ bash v2ray_easy_script.sh uninstall
 >caddy配置文件
 
 配置文件地址 /root/Caddyfile
-``` json
+``` text
 ${caddy_domain} #你的域名 (如果想修改域名 把这行更换成新域名 重启caddy)
 {
   encode gzip
