@@ -1,10 +1,21 @@
 # v2ray 一键安装脚本
   支持centos7+ 和 Ubuntu19+ 系统
+ - [安装前准备](#安装前准备)
  - [安装v2ray脚本](#下载安装)
  - [卸载v2ray脚本](#卸载)
  - [重启v2ray](#重启v2ray)
  - [重启caddy](#重启caddy)
 
+### 安装前准备
+ - 首先你需要准备一个域名
+    
+    #### 国外注册商
+    - [Godaddy](https://sg.godaddy.com/)
+    - [Namesilo](https://www.namesilo.com/register.php)
+                                                                                                                                
+    #### 国内注册商
+    - [阿里云](https://wanwang.aliyun.com/)
+    
 ###  下载安装
  ``` shell script
 wget --no-check-certificate -O v2ray_easy_script.sh https://raw.githubusercontent.com/ikownthat/v2ray_ws_tls/main/v2ray_script/v2ray_easy_script.sh
@@ -56,7 +67,7 @@ bash v2ray_easy_script.sh uninstall
 >caddy配置文件
 
 配置文件地址 /root/Caddyfile
-``` json
+``` text
 ${caddy_domain} #你的域名 (如果想修改域名 把这行更换成新域名 重启caddy)
 {
   encode gzip
