@@ -1,4 +1,4 @@
-# v2ray 一键安装脚本
+# :globe_with_meridians: v2ray 一键安装脚本
   支持centos7+ 和 Ubuntu19+ 系统
  - [安装前准备](#安装前准备)
  - [安装v2ray脚本](#下载安装)
