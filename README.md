@@ -1,5 +1,6 @@
 # :globe_with_meridians: v2ray 一键安装脚本
   支持centos7+ 和 Ubuntu19+ 系统
+  > 如有问题联系-》邮箱：jachen4412@gmail.com
  - [安装前准备](#安装前准备)
  - [安装v2ray脚本](#下载安装)
  - [卸载v2ray脚本](#卸载)
@@ -18,10 +19,12 @@
 - 准备一台服务器(vps)
 
 | vps厂商 :point_down: | 线路 | ip | 速度 | 价格 |
-| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| :---: | :---: | :---: | :----: |  :---------: |
 | [搬瓦工](https://bandwagonhost.com/aff.php?aff=62987) | CN2/CN2-GIA | 原生 | 快 |贵|
 | [Vultr](https://www.vultr.com/?ref=8859179)  | 普通  | 非原生  | 慢 | 便宜 |
-|待更新| ...| ...|...|...|    
+|待更新| ...| ...|...|...|  
+
+上面vps附带推荐链接 我会得到一点vps赏金 如果引起你的不适 网上搜索官网购买也行
 ###  下载安装
  ``` shell script
 wget --no-check-certificate -O v2ray_easy_script.sh https://raw.githubusercontent.com/ikownthat/v2ray_ws_tls/main/v2ray_script/v2ray_easy_script.sh
